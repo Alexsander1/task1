@@ -1,0 +1,344 @@
+@font-face {
+  font-family: "Lato-Light";
+  src: url("../fonts/lato/Lato-Light.ttf"); }
+
+@font-face {
+  font-family: "Lato-Regular";
+  src: url("../fonts/lato/Lato-Regular.ttf"); }
+
+@font-face {
+  font-family: "Entypo";
+  src: url("../fonts/entypo/entypo.ttf"); }
+
+@font-face {
+  font-family: "MyriadPro-Regular";
+  src: url("../fonts/MyriadPro/MyriadPro-Regular.otf"); }
+
+html {
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+
+.wrapper {
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+
+.content-fluid {
+  width: 100%;
+  margin: 0;
+  background: -webkit-gradient(linear, left top, right top, from(#7b28b1), to(#35edf6));
+  background: -webkit-linear-gradient(left, #7b28b1, #35edf6);
+  background: -o-linear-gradient(left, #7b28b1, #35edf6);
+  background: linear-gradient(to right, #7b28b1, #35edf6); }
+
+.content-center {
+  width: 100%;
+  background-color: white; }
+
+.menu {
+  width: 1171px;
+  background-color: white;
+  margin: 0 auto; }
+
+nav {
+  display: block; }
+
+.brand {
+  float: left;
+  margin: 0;
+  height: 100px; }
+
+.navbar {
+  float: right;
+  display: block;
+  height: 100px; }
+
+ul {
+  margin: 0; }
+
+.nav-item {
+  float: left;
+  list-style-type: none;
+  font-family: 'Lato-Light', sans-serif;
+  margin-left: 39px;
+  line-height: 100px; }
+
+.nav-item:first-child {
+  margin-left: 0px; }
+
+.nav-link {
+  font-size: 18px;
+  text-decoration: none;
+  color: black; }
+
+.active > .nav-link {
+  color: #95d9eb; }
+
+.active > .fa {
+  color: #95d9eb; }
+
+.search {
+  padding: 10px;
+  cursor: pointer;
+  font-family: 'Entypo', sans-serif;
+  font-size: 20px;
+  border: 1px solid gray;
+  color: gray;
+  -webkit-border-radius: 20px;
+          border-radius: 20px; }
+
+.sb-search-input {
+  margin: 0px;
+  width: 0px;
+  height: 0px;
+  border: 0px solid #fff; }
+
+.header-content {
+  width: 1171px;
+  margin: 0 auto; }
+
+.header-content h1 {
+  margin: 0px;
+  margin-top: 110px;
+  font-family: 'Lato-Light', sans-serif;
+  padding: 0;
+  font-size: 60px;
+  color: #fff;
+  text-align: center; }
+
+.header-content p {
+  color: #ecf0f1;
+  margin: 0px;
+  font-family: 'MyriadPro-Regular', sans-serif;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+  padding-bottom: 110px; }
+
+.tab:not(first-child) {
+  margin-left: 15px; }
+
+.gallery {
+  width: 1171px;
+  padding-top: 70px;
+  margin: 0 auto;
+  background-color: #fff; }
+
+.list {
+  font-family: 'MyriadPro-Regular', sans-serif;
+  font-size: 14px;
+  text-align: center; }
+
+.list ul {
+  display: inline-block;
+  border: 1px solid #e9ebec;
+  -webkit-border-radius: 5px;
+          border-radius: 5px; }
+
+.list-item {
+  float: left;
+  cursor: pointer;
+  padding: 10px 30px; }
+
+.list-item:not(last-child) {
+  border: 0px solid #e9ebec;
+  border-right-width: 1px; }
+
+.list-active {
+  background-color: #41bedd;
+  color: white;
+  border: 0px solid #e9ebec;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  border-right-width: 1px; }
+
+.grid-item {
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  margin-top: 30px; }
+
+.grid {
+  margin-bottom: 50px; }
+
+.div-botton {
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 70px; }
+
+.div-botton button {
+  display: inline-block;
+  font-size: 14px;
+  color: #34383d;
+  background-color: #fff;
+  padding: 10px 30px;
+  border: 1px solid #e9ebec;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  font-family: 'Lato-Regular', sans-serif; }
+
+.footer {
+  margin-top: 3px;
+  background-color: #ecf0f1;
+  font-family: 'Lato-Light', sans-serif;
+  padding-top: 70px; }
+
+.footer-center {
+  width: 1171px;
+  margin: 0 auto; }
+
+.footer h1 {
+  font-size: 20px;
+  padding-bottom: 30px; }
+
+.aboutus {
+  float: left; }
+
+.aboutus p {
+  max-width: 370px;
+  font-size: 16px;
+  line-height: 1.5; }
+
+.contact {
+  float: left;
+  margin-left: 40px; }
+
+.fa {
+  color: #a761c7; }
+
+.fa-angle-right {
+  color: white; }
+
+.fa-angle-down {
+  cursor: pointer; }
+
+.icon {
+  padding: 2px 5px;
+  border: 1px solid #a761c7;
+  -webkit-border-radius: 14px;
+          border-radius: 14px;
+  margin-right: 15px; }
+
+.contact p {
+  font-size: 16px;
+  margin-bottom: 20px; }
+
+.contact2 {
+  float: left;
+  max-width: 200px;
+  line-height: 1.5;
+  margin-top: 45px;
+  margin-left: 45px; }
+
+.contact2 .icon {
+  float: left; }
+
+.adress {
+  float: left; }
+
+.maps button {
+  padding: 10px 30px;
+  font-size: 14px;
+  margin-top: 20px;
+  background-color: #ecf0f1;
+  border: 1px solid #dce1e3;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-border-radius: 5px;
+          border-radius: 5px; }
+
+.connected {
+  float: left;
+  margin-left: 60px;
+  max-wight: 260px; }
+
+.social-links {
+  display: block; }
+
+.social-links:last-child {
+  margin-top: 15px; }
+
+.social-links i {
+  color: #d1d5d8;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
+
+.social-links i:not(fist-child) {
+  margin-right: 15px; }
+
+.footer-center {
+  padding-bottom: 45px; }
+
+.copy {
+  line-height: 70px;
+  background-color: #e3e7e9;
+  border: 0px solid #dee2e5;
+  font-size: 16px;
+  border-top-width: 1px;
+  text-align: center;
+  color: #899096; }
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  top: 105px;
+  background-color: #fff; }
+
+.sub-menu li {
+  display: block;
+  margin: 0;
+  cursor: pointer;
+  padding: 0;
+  font-family: 'Lato-Light', sans-serif;
+  font-size: 16px;
+  padding-left: 20px;
+  line-height: 42px; }
+
+.sub-menu li:not(last-child) {
+  border: 0px solid #f6f8f8;
+  border-bottom-width: 1px; }
+
+.sub-menu li a {
+  text-decoration: none;
+  color: black; }
+
+.sub-menu .fa-angle-right {
+  color: black;
+  float: right;
+  line-height: 42px;
+  margin-right: 20px;
+  margin-left: 10px; }
+
+.sub-item {
+  display: none;
+  position: absolute;
+  top: 85px;
+  right: -210px;
+  background-color: #fff; }
+
+#top {
+  position: fixed;
+  right: 50px;
+  bottom: 30px;
+  padding: 2px 8px;
+  border: 1px solid #95d9eb;
+  -webkit-border-radius: 20px;
+          border-radius: 20px; }
+
+#top .fa-angle-double-up {
+  color: #95d9eb; }
